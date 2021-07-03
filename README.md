@@ -20,6 +20,12 @@ You can run your application in dev mode that enables live coding using:
 ```shell script
 ./mvnw compile quarkus:dev
 ```
+# test the app
+you can test the endpoints with below postman collection;
+
+https://www.getpostman.com/collections/1e42c91504dfd7617fde
+
+set the URL variable and you are set to test.
 
 > **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
 
