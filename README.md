@@ -1,3 +1,13 @@
+# Installation
+This project needs a postgresql running on port 5432, you can easily start with docker with below command;
+
+```docker run --ulimit memlock=-1:-1 -it --rm=true --memory-swappiness=0 \
+           --name postgres-quarkus-reactive -e POSTGRES_USER=quarkus_test \
+           -e POSTGRES_PASSWORD=quarkus_test -e POSTGRES_DB=quarkus_test \
+           -p 5432:5432 postgres:11.2
+```
+This project uses quarkus which is competible with java 11.
+
 # getting-started-reactive-crud project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
